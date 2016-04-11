@@ -1,0 +1,24 @@
+task main()
+{
+	while(1==1)
+	{
+
+if(SensorValue(down) == 1 && SensorValue(limitswitch) == 0)
+	{
+		motor[Motor] = -60;
+
+}
+else if(SensorValue(up) == 1)
+	{
+		motor[Motor] = 60;
+
+	}
+
+
+else
+	{
+		motor[Motor] = 0;
+	}
+
+}
+}
